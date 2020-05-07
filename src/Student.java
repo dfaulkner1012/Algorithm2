@@ -1,8 +1,8 @@
 public class Student {
     private String name;
-    private int studentID;
+    private String studentID;
 
-    public Student(String name, int studentID) {
+    public Student(String name, String studentID) {
         this.name = name;
         this.studentID = studentID;
     }
@@ -15,11 +15,11 @@ public class Student {
         this.name = name;
     }
 
-    public int getStudentID() {
+    public String getStudentID() {
         return studentID;
     }
 
-    public void setStudentID(int studentID) {
+    public void setStudentID(String studentID) {
         this.studentID = studentID;
     }
 }
